@@ -103,7 +103,7 @@ while (keepGoing == True):
         print "\n-+-----------------------------------+-"
         print   " |              RESULTS              |"
         print   "-+-----------------------------------+-"
-        print "You are currently ", age, " years old"
+        print "\nYou are currently ", age, " years old"
 
         #Date of 100th birthday
         hundredYear = year + 100
@@ -158,6 +158,22 @@ while (keepGoing == True):
         print "Your birthstone is: ", stoneArray[month-1]
 
         #Birth flower
+        flowerArray = ["Carnation",
+                       "Violet and Iris",
+                       "Daffodil",
+                       "SweetPea and Daisy",
+                       "Lily of the Valley",
+                       "Rose", "Larkspur",
+                       "Gladiolus",
+                       "Aster and Forget-me-not",
+                       "Marigold",
+                       "Chrysanthemum",
+                       "Poinsettia"]
+        print "Your birth month flower is: ", flowerArray[month-1]
+
+        print "\n-+-----------------------------------+-"
+        print   " |                END                |"
+        print   "-+-----------------------------------+-"
 
         #-----------------------------
         # ASK USER WHETHER TO CONTINUE
